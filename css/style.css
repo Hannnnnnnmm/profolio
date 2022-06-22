@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.wrap {
+    background-color: #fff;
+    width: 900px;
+    height: 3500px;
+    margin: 40px auto 40px auto;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.wrap h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333
+}
+
+.wrap .profile {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.wrap .profile .left {
+    width: 68%;
+    margin-right: 2%;
+    float: left;
+}
+
+.wrap .profile .left img {
+    width: 580px;
+    height: 350px;
+}
+
+.wrap .profile .right {}
+
+.wrap .profile .right h1.name {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 120px;
+    color: #555
+}
+
+.wrap .profile .right .info {
+    line-height: 180%;
+    font-size: 14px;
+    color: #555
+}
+
+.wrap .profile .right .link {}
+
+.wrap .profile .right .link a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    transition: opacity 0.5s;
+    ;
+}
+
+.wrap .profile .right .link a:hover {
+    opacity: .5;
+}
+
+.wrap .profile .right .link a img {
+    width: 24px;
+    height: 24px;
+    padding-top: 20px;
+}
+
+.wrap .profile .right .mail {}
+
+.wrap .profile .right .mail::before {
+    content: "E";
+    font-weight: bold;
+    color: #dccb18
+}
+
+.wrap .profile .right .mail a {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555
+}
+
+.wrap .profile .right .mail a:hover {
+    text-decoration: none;
+}
+
+.wrap .profile .right .phone::before {
+    content: "P";
+    font-weight: bold;
+    color: #dccb18
+}
+
+.wrap .profile .right .phone {
+    font-size: 14px;
+    color: #555
+}
+
+.wrap .skill {
+    overflow: hidden;
+    margin-bottom: 40px
+}
+
+.wrap .skill ul {
+    list-style: none;
+}
+
+.wrap .skill ul li {
+    color: #2f5d50;
+    font-size: 14px;
+    font-weight: bold;
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.wrap .skill ul li::before {
+    margin-right: 8px;
+    content: "€";
+    color: #dccb18
+}
+
+.wrap .skill ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.wrap .skill ul li span {}
+
+.wrap .experience {
+    overflow: hidden;
+    margin-bottom: 40px
+}
+
+.wrap .experience .leftB {
+    float: left;
+    width: 48%;
+    margin-right: 3%;
+}
+
+.wrap .experience .rightB {
+    float: right;
+    width: 48%;
+}
+
+.wrap .experience ul {
+    list-style: none;
+    border-left: solid 1.5px #dccb18;
+}
+
+.wrap .experience ul li {
+    padding-left: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    color: #2f5d50
+}
+
+.wrap .experience ul li::before {
+    content: "☞";
+    margin-right: 5px;
+    display: block;
+    position: absolute;
+    left: -1.5px;
+}
+
+.wrap .experience ul li span {
+    display: block;
+    font-size: 12px;
+}
+
+.wrap .work {}
+
+.wrap .work ul {
+    list-style: none;
+}
+
+.wrap .work ul li {
+    margin-left: 120px;
+    margin-bottom: 20px;
+    width: 90%;
+    float: left;
+}
+
+.wrap .work ul li img {
+    width: 80%;
+}
